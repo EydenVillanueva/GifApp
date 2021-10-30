@@ -14,10 +14,11 @@ export const AddCategory = ({ setCategories }) => {
 			setCategories( categories => [inputValue, ...categories]);
 			setInputValue('');
 		}
-	}
+	};
 	
 	return (
 			<form onSubmit={ handleSubmit }>
+				<p>{ inputValue }</p>
 				<input
 					type="text"
 					value={inputValue}

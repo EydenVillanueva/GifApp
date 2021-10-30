@@ -17,7 +17,7 @@ const GifGrid = ({category}) => {
 	return (
 		<div className="card-grid" >
 			<h3> {category} </h3>
-			{ loading && 'Loading...' }
+			{ loading && <p>'Loading...'</p> }
 			{renderImages(images)}
 		</div>
 	);
