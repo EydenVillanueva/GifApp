@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid component test suite GifGrid component should match snapshot 1`] = `
+<div
+  className="card-grid"
+>
+  <h3>
+     
+    category
+     
+  </h3>
+  <p>
+    'Loading...'
+  </p>
+  <ol />
+</div>
+`;
+
+exports[`GifGrid component test suite GifGrid should show items when image are loaded with useFetchGifs 1`] = `
+<div
+  className="card-grid"
+>
+  <h3>
+     
+    category
+     
+  </h3>
+  <ol>
+    <GifGridItem
+      key="1"
+      title="Image title"
+      url="http://localhost.com/image1.jpg"
+    />
+    <GifGridItem
+      key="2"
+      title="Image title 2"
+      url="http://localhost.com/image2.jpg"
+    />
+  </ol>
+</div>
+`;
